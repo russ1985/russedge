@@ -1,0 +1,5 @@
+<h2><%=h @website_section.title %></h2>
+
+<% @contents.each do |content| %>
+    <%= render_editable_content(content) %>
+<% end %>
